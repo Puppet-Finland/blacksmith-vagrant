@@ -1,3 +1,4 @@
 modules
 ubuntu-*-cloudimg-console.log
 puppetforge.yml
+.vagrant
