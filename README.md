@@ -37,9 +37,9 @@ Finally you need to add a Puppet Forge config file to vagrant/puppetforge.yml:
 It is a good practice to have metadata.json match your Forge username when
 possible. 
 
-# Publishing modules to the Forge
+# Pushing a release to the Forge
 
-Create the blacksmith VM:
+Create/start the blacksmith VM:
 
     $ vagrant up
 
