@@ -55,6 +55,8 @@ Configure Git:
 Test (with Travis-CI):
 
     $ cd /vagrant/modules/my_module
+    $ git checkout master
+    $ git pull --rebase origin master
     $ git push
 
 Publish:
@@ -62,6 +64,7 @@ Publish:
     $ cd /vagrant/modules/my_module
     $ rake module:bump_commit:patch
     $ rake module:tag
+    $ git push
     $ git push --tags
     $ rake module:clean
     $ rake module:push
